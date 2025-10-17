@@ -1,0 +1,27 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# LangChain - Agent Framework (align to v0.3 series per docs)
+langchain==0.3.0
+langchain-openai==0.2.0
+langchain-core==0.3.0
+openai==1.51.2
+
+# NLP & Embeddings
+sentence-transformers==2.2.2
+spacy==3.7.2
+
+# Database
+# SQLite is built into Python, no separate package needed
+
+# Utilities
+# Pin to a NumPy version compatible with Python 3.11 and spaCy/thinc wheels
+numpy==1.26.4
+thinc==8.2.2
+dateparser==1.2.0
+
+# Optional: For better date parsing
+python-dateutil==2.8.2
